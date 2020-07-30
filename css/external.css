@@ -1,17 +1,16 @@
 
-/*#FA255E and #fff*/
+/*#FA255E and #fff #eeeeee*/
 body{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 h1, h2{
-	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 3rem;
 	line-height: 1.5;
 }
 h3{
 	font-weight: bold;
-	font-family: "Montserrat", sans-serif;
+	
 	font-size: 2.5rem;
 	line-height: 1.5;
 }
@@ -19,8 +18,8 @@ h3{
 
 /*Title section*/
 #title{
-	background-color: #FA255E;
-	color: white;
+	background-color: #222831;
+	color:  white;
 	text-align: center;
 }
 .container-fluid{
@@ -60,20 +59,21 @@ h3{
 /*Section quotes*/
 #quotes{
 	text-align: center;
+
 	padding-top: 10%;
 	padding-bottom: 10%;
-	background-color: #fff;
+	background-color:  #eeeeee;
 	text-align: center;
+	
 }
 #quotes i{
 	font-size: 5rem;
 	padding-top: 10%;
 	padding-bottom: 5%;
-	color: #FA255E;
+	color: #222831;
+	margin:2%;
 }
-#quotes i:hover{
-	color: #FA2742;
-}
+
 #quotes p{
 	font-weight: light;
 	color: grey;
@@ -84,12 +84,13 @@ h3{
 /*Experience section*/
 #experience{
 	text-align: center;
-	background-color: #ff4c68;
-	color: #fff;
+	background-color: #222831;
+	color: #eeeeee;
+	margin: 0% auto;
 }
 #experience img{
 	width: 15%;
-	margin: 5% auto;
+	
 }
 .carousel-item{
 	padding: 5% 15%;
@@ -97,19 +98,139 @@ h3{
 
 /*Photos Section*/
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 9px;
+	margin:0 auto;
+	margin-bottom: 1px;
+	
+  }
+  .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+
+  }
+  .column img {
+	margin-top: 5px;
+	vertical-align:center;
+	width: 100%;
+  }
+  .m{
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  .m img {
+	margin-top: 5px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  .l {
+	flex: 25%;
+	max-width: 20%;
+	padding: 0 4px;
+  }
+  .l img {
+	margin-top: 5px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  .s {
+	flex: 25%;
+	max-width: 30%;
+	padding: 0 4px;
+  }
+  .s img {
+	margin-top: 5px;
+	vertical-align: middle;
+	width: 100%;
+  }
+ 
+  
+  
+  @media screen and (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+  @media screen and (max-width: 800px) {
+	.l {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.l {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+  @media screen and (max-width: 800px) {
+	.s {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.s {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+  @media screen and (max-width: 800px) {
+	.m {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.m {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
 
 /*Footer*/
 #footer{
 	text-align: center;
-	color: grey;
+	margin:0;
 }
 #footer a{
-	padding-right: 3%;
-	font-size: 5rem;
-	padding-bottom: 3%;
+	padding: 2%;
+	font-size: 2rem;
+	background-color:  white;
+	border-radius: 50%;
 }
-#footer a:hover{
-  color: #ff4c68;
-  text-decoration: none;	
+.tw{
+  	color:#00acee ;
+}
+.in{
+	color: #E1306C ;
+
 }
 
+.tw:hover{
+	text-decoration: none;
+	color: #1DA1F2;
+}
+
+.in:hover{
+	text-decoration: none;
+	color: #C13584;
+}
+.fb:hover{
+	text-decoration: none;
+}
