@@ -48,49 +48,46 @@ h3{
 	width: 100%;
 	height: 400px;
 }
-@media (max-width: 992px)
-{
-	#main-photos img{
-		height: 600px;
-	}
-}
 
 
 /*Section quotes*/
 #quotes{
 	text-align: center;
-
 	padding-top: 10%;
 	padding-bottom: 10%;
-	background-color:  #eeeeee;
+	background-color: #fff;
 	text-align: center;
-	
 }
 #quotes i{
 	font-size: 5rem;
 	padding-top: 10%;
 	padding-bottom: 5%;
-	color: #222831;
-	margin:2%;
+	color: darkgrey;
 }
-
+#quotes i:hover{
+	color: lightgray;
+}
 #quotes p{
 	font-weight: light;
 	color: grey;
 	width: 70%;
 	margin: auto;
 }
+#quotes .feature-box{
+	padding-left: 3%;
+}
+
 
 /*Experience section*/
 #experience{
 	text-align: center;
 	background-color: #222831;
 	color: #eeeeee;
-	margin: 0% auto;
+	margin: 1% auto;
 }
 #experience img{
+	padding-top: 5%;
 	width: 15%;
-	
 }
 .carousel-item{
 	padding: 5% 15%;
@@ -205,6 +202,7 @@ h3{
 
 /*Footer*/
 #footer{
+
 	text-align: center;
 	margin:0;
 }
