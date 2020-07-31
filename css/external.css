@@ -8,6 +8,13 @@ h1, h2{
 	font-size: 3rem;
 	line-height: 1.5;
 }
+@media (max-width: 992px)
+{
+	h1,h2{
+		font-size: 2rem;
+		line-height: 1.2rem;
+	}
+}
 h3{
 	font-weight: bold;
 	
@@ -15,11 +22,10 @@ h3{
 	line-height: 1.5;
 }
 
-
 /*Title section*/
 #title{
-	background-color: #222831;
-	color:  white;
+	background-color: #FFFF00;
+	color:  black;
 	text-align: center;
 }
 .container-fluid{
@@ -87,8 +93,8 @@ h3{
 /*Experience section*/
 #experience{
 	text-align: center;
-	background-color: #222831;
-	color: #eeeeee;
+	background-color: #FFFF00;
+	color: black;
 	margin: 1% auto;
 }
 #experience img{
