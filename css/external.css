@@ -5,6 +5,7 @@ h1, h2{
 	font-weight: bold;
 	font-size: 3rem;
 	line-height: 1.5;
+	text-align: center;
 }
 @media (max-width: 992px)
 {
@@ -18,6 +19,10 @@ h3{
 	
 	font-size: 2.5rem;
 	line-height: 1.5;
+}
+p{
+	font-size: 0.75rem;
+	text-align: center;
 }
 
 /*Title section*/
@@ -216,6 +221,9 @@ h3{
 	}
   }
 /*Contact me*/
+#Contact_me{
+	padding-top: 5%;
+}
 textarea{
 	resize: none;
 }
