@@ -1,5 +1,3 @@
-
-/*#FA255E and #fff #eeeeee*/
 body{
 	font-family: 'Roboto Slab', serif;
 }
@@ -12,7 +10,7 @@ h1, h2{
 {
 	h1,h2{
 		font-size: 2rem;
-		line-height: 1.2rem;
+		line-height: 1.2;
 	}
 }
 h3{
@@ -24,8 +22,8 @@ h3{
 
 /*Title section*/
 #title{
-	background-color: #FFFF00;
-	color:  black;
+	background-color: #585858;
+	color:  white;
 	text-align: center;
 }
 .container-fluid{
@@ -93,8 +91,8 @@ h3{
 /*Experience section*/
 #experience{
 	text-align: center;
-	background-color: #FFFF00;
-	color: black;
+	background-color: #585858;
+	color: white;
 	margin: 1% auto;
 }
 #experience img{
